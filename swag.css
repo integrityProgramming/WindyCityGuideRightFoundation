@@ -1,0 +1,169 @@
+/*** HEADER STYLING ***/
+body {
+    text-align: center;
+}
+header {
+    text-align: center;
+    background-color: white;
+    height: 150px;
+    font-family: script;
+}
+header h1 {
+    color: crimson;
+}
+
+#coatOfArms {
+    float: left;
+    height: 150px;
+    width: auto;
+}
+
+#academicLibrary {
+    float: right;
+    height: 150px;
+    width: auto;
+}
+
+/*** Navbar ***/
+
+ul{
+    background-color: crimson;
+    color: white;
+    font-size: 20px;
+}
+li {
+    display: inline;
+    padding-left: 5px;
+    color: white;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    background-color: rgb(255, 255, 255);
+    color: crimson;
+}
+/*** MAIN ***/
+
+#mainFirstDiv{
+    background-image: url("capgownSilouete.jpeg");
+    width: 100%;
+    height: 400px;
+    padding: 0%;
+    margin: 0%;
+    border: 0%;
+}
+
+.donateButton{
+    text-align: center;
+    margin-top: 290px;
+    padding: 0px;
+    width: 150px;
+    height: 30px; 
+    border-radius: 35px;
+    background-color: crimson;
+    color: white;
+    text-decoration: none;
+    float: left;
+}
+
+#rcorners3 {
+    border-radius: 25px;
+    background: url(paper.gif);
+    background-position: left top;
+    background-repeat: repeat;
+    padding: 20px; 
+    width: 200px;
+    height: 150px;  
+  }
+/*** FOOTER ***/
+#footer {
+    bottom:0;
+    width:100%;
+    /* Height of the footer */
+    height: 50px;   
+    text-align: center;
+    background-color: crimson;
+    color: white;
+    margin-top:10px;
+}
+#integrityProgramming {
+    float: left;
+    padding-left: 10px;
+}
+footer p {
+    margin:0;
+}
+table {
+    text-align: center;
+}
+
+.leftTableData {
+    padding-left: 30px;
+}
+
+.rightTableData {
+       padding-right: 60px;
+}
+
+#displayBtn {
+    color: white;
+    background-color: black;
+    margin-top: 40px;
+    text-align: center;
+    margin-left: 40%;
+    margin-bottom: 50px;
+    padding: 0 10px;;
+}
+.learnMorebtn {
+    background-color: crimson;
+    color: white;
+    padding: 5px 10px;
+}
+/*
+.rightSide {
+    float: right;
+    width: 75%;
+}
+aside{
+    float: right;
+    width: 20px;
+}
+
+*/
+/***Third Div***/
+#thirdDiv{
+    margin-top: 100px;
+    background-image:url("windycityskyline.png");
+    height: 400px;
+ }
+
+.thirdDivText{
+    text-align: center;
+    color: white;
+}
+.h3Text{
+    padding-top: 25px;
+}
+
+#komingSoon {
+    width:1000px;
+    margin-left: 100px;
+}
+
+.foundationSponsor {
+    text-align: center;
+    width: 50%;
+    margin-left: 25%;
+}
+
+.sponsorLogo {
+    height: 100px;
+    width: auto;
+}
+
+.centerTable {
+    margin-right: auto;
+    margin-left: auto;
+}
